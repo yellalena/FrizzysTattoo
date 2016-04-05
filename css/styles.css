@@ -1,0 +1,209 @@
+body.home {
+
+}
+
+body, html { 
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.gallery {
+	width: 80%;
+	display: block;
+	position: relative;
+	text-align: center;
+	margin: 0 auto;
+	padding-bottom: 15px;
+}
+
+.photo img{
+	/*-webkit-filter: brightness(66%);*/
+	/*-webkit-filter: contrast(66%);*/
+	-webkit-filter: grayscale(26%);
+	opacity: 1;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.photo img:hover{
+	-webkit-filter: grayscale(5%);
+	opacity: 0.9;
+}
+
+#header {
+	text-align: center;
+}
+
+#img {
+	font: 20px 'Trebuchet MS';
+}
+
+#links {
+	position: relative;
+	/*width: 350px;*/
+	width: 50%;
+	text-align: center;
+	line-height: 30px;
+	display: block;
+	margin: 0 auto;
+}
+
+#active {
+	background: #10BAD5;
+	opacity: 0.2;
+}
+
+#links ul{
+	list-style-type: none;
+	position: relative;
+}
+
+#links ul li{
+	position: relative;
+	display: inline;
+	margin: 0 auto;
+	padding: 10px;
+	opacity: 0.6;
+	/*-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;*/
+	transition: all 1s ease;
+}
+
+#links ul li:hover{
+	background: #5ADDF2;
+	opacity: 1;
+}
+
+#links a{
+	text-align: center;
+	text-decoration: none;
+	color: #3D3D3D;
+	font-family: "Franklin Gothic Demi";
+}
+
+
+.pic-wrap{
+	position: relative;
+	text-align: center;
+	background-image: url(img/indexBg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+}
+
+.indexpic {
+	background-position: center;
+}
+
+#banner {	
+	position: relative;
+	width: 600px;
+	margin: auto;
+	display: table;
+	line-height: 10px;
+	table-layout: fixed;
+	z-index: 2;
+
+}
+#banner-container{/*
+	font-family: "Franklin Gothic Demi";*/
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+	padding: 20%;
+}
+
+.button a{
+	text-decoration: none;
+	color: white;
+}
+
+.button {
+	margin: auto;
+	background: #5ADDF2;
+	transition: all 1s ease;
+	padding: 10px;
+	width: 120px;
+
+
+}
+
+.button:hover{
+	margin: auto;
+	background: #5AADF2;
+	padding: 10px;
+	width: 120px;
+
+}
+
+.buttons {
+	display: inline-block;
+}
+
+.contacts {
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	padding-bottom: 30px;
+}
+
+.contacts a{
+	text-decoration: none;
+	color: black;
+}
+
+
+#contactButton {
+	padding: 18px;
+	font-color: black;
+	background: rgba(1, 99, 99, 0.3);	
+	line-height: 57px;
+}
+
+
+#contactButton:hover{
+	padding: 18px;
+	background: rgba(9, 99, 99, 0.1);
+	transition: all 1s ease;
+}
+
+#main {
+	position: relative;
+	min-height: 100%;
+}
+
+#footer {
+	position: relative;
+	padding: 9px;
+	background: #04768F;
+	opacity: 0.8;
+	color: white;
+	height: 22px;/*
+	width: 100%;*/
+	background-size: cover;
+	text-align: center;
+}
+
+#footer a{
+	color: white;
+	opacity: 0.6;
+
+	font-family: "Franklin Gothic Demi";
+	/*font-family: 'Trebuchet MS';*/
+	font-size: 14px;
+
+}
+
+#footer a:visited{
+	color: white;
+	opacity: 0.6;
+}
