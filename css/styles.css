@@ -92,7 +92,7 @@ body, html {
 .pic-wrap{
 	position: relative;
 	text-align: center;
-	background-image: url(img/indBg.jpg);
+	background-image: url(img/bckgrnd.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -179,12 +179,13 @@ body, html {
 #main {
 	position: relative;
 	min-height: 100%;
+	text-align: center;
 }
 
 #footer {
 	position: relative;
 	padding: 9px;
-	background: #04768F;
+	background: #0A3D48;
 	opacity: 0.8;
 	color: white;
 	height: 22px;/*
@@ -206,4 +207,11 @@ body, html {
 #footer a:visited{
 	color: white;
 	opacity: 0.6;
+}
+
+#info{
+	font-family: 'Roboto Condensed', sans-serif;;
+	padding: 20px; 
+	width: 50%; 
+	margin: 0 auto;
 }
