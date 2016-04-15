@@ -119,7 +119,7 @@ body, html {
 	color: white;
 	display: table-cell;
 	vertical-align: middle;
-	height: 100%;
+	height: auto;
 	padding: 20%;
 }
 
