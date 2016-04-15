@@ -105,7 +105,7 @@ body, html {
 
 #banner {	
 	position: relative;
-	width: 100%;
+	width: 70%;
 	margin: auto;
 	display: table;
 	line-height: 10px;
@@ -119,8 +119,8 @@ body, html {
 	color: white;
 	display: table-cell;
 	vertical-align: middle;
+	height: 100%;
 	padding: 20%;
-	height: 80%;
 }
 
 .button a{
