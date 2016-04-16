@@ -131,7 +131,7 @@ body, html {
 
 .button {
 	margin: auto;
-	background: #5ADDF2;
+	background: rgba(90,221, 242, 0.7);
 	transition: all 1s ease;
 	padding: 10px;
 	width: 120px;
@@ -141,7 +141,7 @@ body, html {
 
 .button:hover{
 	margin: auto;
-	background: #0A3D48;
+	background: rgba(10, 61, 72, 0.6);
 	padding: 10px;
 	width: 120px;
 
