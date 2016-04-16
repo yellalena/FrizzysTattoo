@@ -9,6 +9,7 @@ body, html {
 	width: 100%;
 }
 
+
 .gallery {
 	width: 80%;
 	display: block;
@@ -46,11 +47,12 @@ body, html {
 #links {
 	position: relative;
 	/*width: 350px;*/
-	width: 50%;
+	width: 55%;
 	text-align: center;
 	line-height: 30px;
 	display: block;
 	margin: 0 auto;
+	left: -11px;
 }
 
 #active {
@@ -107,7 +109,7 @@ body, html {
 	width: 70%;
 	margin: auto;
 	display: table;
-	line-height: 10px;
+	line-height: 20px;
 	table-layout: fixed;
 	z-index: 2;
 
@@ -151,7 +153,7 @@ body, html {
 }
 
 .contacts {
-	line-height: 10px;
+	line-height: 20px;
 	text-align: center;
 	margin: 0 auto;
 	position: relative;
